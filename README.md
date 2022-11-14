@@ -1,2 +1,2 @@
 # binz_run
-[Spustit](https://oreoncz.github.io/binz_run/)
+[Spustit](https://github.com/OreonCZ/binz_run.git)
