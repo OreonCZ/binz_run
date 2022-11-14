@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    user-select: none;
+    user-zoom: none;
+    margin: 0;
+}
+
+body {
+    background-image: url(./net.png);
+    background-size: 100%;
+    height: 100%;
+
+}
+
+#pozadi {
+    position: relative;
+    top: 200px;
+    max-width: 900px;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid black;
+    background-image: url(majn.jpg);
+}
+
+#error {
+    position: relative;
+    max-width: 50px;
+    width: 100%;
+    top: 356px;
+    left: 100px;
+    animation: enemy 0.7s infinite linear;
+}
+@keyframes enemy {
+    0% {
+        left: 790px;
+      }
+
+      100% {
+        left: -62px;
+      }
+    }
+
+
+#mc {
+    max-width: 50px;
+    width: 100%;
+    position: relative;
+    top: 356px;
+    left: 40px;
+    
+}
+
+.jump{
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    0% {
+      top: 356px;
+    }
+    50% {
+        top: 278px;
+      }
+    100% {
+      top: 356px;
+    }
+  }
