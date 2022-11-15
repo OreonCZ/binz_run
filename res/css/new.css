@@ -12,6 +12,12 @@ body {
 
 }
 
+#counter {
+  left: 5px;
+  position: absolute;
+  font-size: 30px;
+}
+
 #pozadi {
     position: relative;
     top: 200px;
